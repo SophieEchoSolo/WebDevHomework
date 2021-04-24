@@ -1,42 +1,64 @@
 body {
     background: #B5C0C0;
     font-family: Arial, Helvetica, Sans-serif;
-    font-size: 18pt;
+    font-size: t;
     color: #531253;
+    line-height: 1.5em;
     max-width: 1200px;
-    margin: auto;
+    margin: 10%;
+    padding: 5%;
+}
+
+img {
+    float: left;
+    margin: 0 1em 1em 0;
 }
 
 h1 {
-    font-size: 24pt;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding: 1px;
+    margin: 1px;
 }
 
 #title {
     text-align: center;
-    font-size: 36pt;
+    font-size: 1.2em;
+    padding: 1px;
+    margin: 1px;
 }
 
 h2 {
-    font-size: 22pt;
+    font-size: 1.2em;
     font-weight: bold;
+    padding: 1px;
+    margin: 1px;
 }
 
 fieldset {
-    font-size: 16pt;
+    font-size: 1em;
+    padding: 1px;
+    margin: 1px;
 }
 
 h3 {
-    font-size: 22pt;
+    font-size: 1.2em;
     font-weight: bold;
+    padding: 1px;
+    margin: 1px;
 }
 
 img {
-    width: 25%;
-    height: 25%;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    margin: 1px;
 }
 
 p {
     text-indent: 1cm;
+    padding: .5%;
+    margin: .5%;
 }
 
 p cite {
@@ -55,17 +77,24 @@ table,
 th,
 td {
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     border: 2px solid #170312;
+    padding: 5px;
+    margin: 5px;
+
 }
 
 th {
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 
 footer {
     text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
 
 legend {
@@ -81,7 +110,7 @@ input {
     background: #531253;
     color: #A0ACAD;
     font-family: Arial, Helvetica, Sans-serif;
-    font-size: 12pt;
+    font-size: 1.2em;
 }
 
 fieldset ul {
@@ -96,16 +125,20 @@ li a {
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    margin: .5px;
+    padding: .5px;
 }
 
 ol {
     text-align: left;
+    margin: 5px;
+    padding: 5px;
 }
 
 #navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: .2em;
+    padding: .2em;
     overflow: hidden;
     background-color: #531253;
     color: #B5C0C0;
@@ -113,6 +146,8 @@ ol {
 
 #navbar li {
     float: left;
+    margin: .2em;
+    padding: .2em;
 }
 
 #navbar li a:hover {
