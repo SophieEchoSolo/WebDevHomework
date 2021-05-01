@@ -1,12 +1,12 @@
 body {
     background: #B5C0C0;
     font-family: Arial, Helvetica, Sans-serif;
-    font-size: t;
+    font-size: 18pt;
     color: #531253;
     line-height: 1.5em;
     max-width: 1200px;
-    margin: 10%;
-    padding: 5%;
+    margin: auto;
+    padding: 1.5em;
 }
 
 img {
@@ -16,23 +16,24 @@ img {
 
 h1 {
     font-size: 1.2em;
-    line-height: 1.2em;
+    line-height: 1.2;
     padding: 1px;
     margin: 1px;
 }
 
 #title {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.8em;
     padding: 1px;
     margin: 1px;
 }
 
-h2 {
+h2,
+h3 {
+    margin-top: 1.2em;
     font-size: 1.2em;
     font-weight: bold;
     padding: 1px;
-    margin: 1px;
 }
 
 fieldset {
@@ -41,11 +42,16 @@ fieldset {
     margin: 1px;
 }
 
-h3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 1px;
-    margin: 1px;
+picture {
+    display: block;
+    overflow: hidden;
+}
+
+img.max-20 {
+    max-width: 100%;
+    width: auto;
+    max-height: 20vh;
+    height: auto;
 }
 
 img {
@@ -82,7 +88,6 @@ td {
     border: 2px solid #170312;
     padding: 5px;
     margin: 5px;
-
 }
 
 th {
@@ -116,7 +121,6 @@ input {
 fieldset ul {
     text-align: left;
     padding: 14px 16px;
-
 }
 
 li a {
@@ -136,8 +140,10 @@ ol {
 }
 
 #navbar {
+    text-align: center;
     list-style-type: none;
-    margin: .2em;
+    margin-top: 1em;
+    margin-top: 1em;
     padding: .2em;
     overflow: hidden;
     background-color: #531253;
@@ -145,7 +151,7 @@ ol {
 }
 
 #navbar li {
-    float: left;
+    display: inline-block;
     margin: .2em;
     padding: .2em;
 }
@@ -156,4 +162,14 @@ ol {
 
 #navbar li a:visited {
     color: #B5C0C0;
+}
+
+#equality-img {
+    max-width: 400px;
+    margin: auto;
+}
+
+#equality-img img {
+    width: 100%;
+    height: auto;
 }
